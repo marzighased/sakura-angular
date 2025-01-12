@@ -1,0 +1,56 @@
+
+:host {
+    display: block;
+    min-height: 100vh;
+    background-color: #FFF5E9;
+}
+
+.imprint-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 120px 160px;
+
+    h1 {
+        font-size: 64px;
+        font-weight: bold;
+        color: #9F0908;
+        margin-bottom: 64px;
+    }
+
+    section {
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000000;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 1.5;
+            color: #675E54;
+        }
+    }
+
+    .back-button {
+        margin-top: 64px;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            padding: 16px 32px;
+            background-color: #9F0908;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: darken(#9F0908, 10%);
+            }
+        }
+    }
+}

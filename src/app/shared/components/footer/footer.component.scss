@@ -1,0 +1,49 @@
+
+footer {
+    background-color: #0A141E;
+    padding: 32px 160px;
+
+    .footer-content {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left-content {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            .logo {
+                height: 44px;
+            }
+
+            .imprint-link {
+                color: white;
+                text-decoration: none;
+                font-size: 24px;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #9F0908;
+                }
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 56px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
