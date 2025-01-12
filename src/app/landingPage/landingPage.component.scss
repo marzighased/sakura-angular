@@ -1,0 +1,30 @@
+
+h1, h2{
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 30%;
+}
+
+div{
+    width: 100%;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../assets/img/1_hero/JPG/hero_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
