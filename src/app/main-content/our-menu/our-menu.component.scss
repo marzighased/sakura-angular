@@ -1,0 +1,69 @@
+
+section {
+    padding: 120px 160px;
+    background-color: #FFF5E9;
+
+    h2 {
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 80px;
+        text-align: center;
+        color: #9F0908;
+        margin-bottom: 64px;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+
+        img {
+            width: 352px;
+            height: 352px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .menu-details {
+            h3 {
+                font-family: 'Economica';
+                font-weight: bold;
+                font-size: 56px;
+                margin-bottom: 16px;
+                color: #000000;
+            }
+
+            table {
+                font-family: 'Raleway';
+                font-weight: bold;
+                font-size: 24px;
+
+                tr {
+                    height: 44px;
+
+                    td:first-child {
+                        padding-right: 32px;
+                        color: #675E54;
+                    }
+
+                    td:last-child {
+                        color: #675E54;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2n) {
+            flex-direction: row-reverse;
+            justify-content: flex-start;
+        }
+    }
+}

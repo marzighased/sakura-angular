@@ -12,6 +12,6 @@ import { HowToOrderComponent } from './how-to-order/how-to-order.component';
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.scss'
 })
-export class MainContentComponent {
+export class MainContentComponent { 
 
-}
+} 

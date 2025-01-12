@@ -1,0 +1,38 @@
+
+section {
+    padding: 120px 160px;
+    text-align: center;
+    
+    h2 {
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 80px;
+        margin-bottom: 64px;
+        color: #9F0908;
+    }
+
+    .steps-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 120px;
+        
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+
+            img {
+                width: 128px;
+                height: 128px;
+            }
+
+            h3 {
+                font-family: 'Economica';
+                font-weight: bold;
+                font-size: 56px;
+                text-align: center;
+            }
+        }
+    }
+}

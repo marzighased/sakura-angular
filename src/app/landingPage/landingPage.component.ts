@@ -16,4 +16,4 @@ import { NavbarComponent } from '../main-content/landing-page/navbar/navbar.comp
     `,
     styleUrls: ['./landingPage.component.scss']
 })
-export class LandingPageComponent {}
+export class LandingPageComponent {} 
